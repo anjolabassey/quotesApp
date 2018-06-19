@@ -1,0 +1,74 @@
+body,
+html {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 10vh;
+    background: linear-gradient(-90deg, rgb(18, 73, 124), grey);
+    text-align: center;
+}
+
+.main {
+    height: 78vh;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#banner {
+    width: 40%;
+    min-height: 20%;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    box-sizing: border-box;
+    margin: 10% auto;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    height: 10%;
+    font-weight: bold;
+    background: linear-gradient( rgb(18, 73, 124), grey);
+}
+
+#displayQuote {
+    box-shadow: 1px 1px 3px;
+}
+
+#displayQuote:hover {
+    box-shadow: 3px 3px 5px;
+
+}
+#saveQuote:hover {
+    box-shadow: 1px 1px 2px;
+
+}
+.footer {
+    height: 12vh;
+    background: rgba(76, 80, 99, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    
+}
+
