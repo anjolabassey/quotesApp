@@ -4,7 +4,6 @@ let saveInput = document.getElementById("saveQuote");
 let display = document.getElementById("displayQuote");
 let banner = document.getElementById("display");
 
-
 let getImage = () => {
     let randomImage = Math.floor(Math.random() * imageArray.length);
     document.getElementById("main").style.background = "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(" + imageArray[randomImage] + ")";
@@ -13,7 +12,8 @@ let getImage = () => {
 let getQuote = () => {
     let randomQuote = Math.floor(Math.random() * quotes.length);
     banner.innerHTML = quotes[randomQuote];
-    getImage();    
+    getImage();
+    
 }
 
 document.onload = getQuote();
